@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background: #f1f5f8;
+    font-family: sans-serif;
+    color: #333;
+}
+.main{
+    width: 100%;
+    height: 100vh;   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+hr{
+    width: 20%;
+    height: 7px;
+    background: #e80c82;
+    margin: 20px 0 20px 0;
+}
+h1{
+    font-size: 50px;
+    font-weight: 500;
+    color: #000;
+    margin: 0 10px;
+}
+img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    box-shadow: 8px 0 0px #e80c82;
+}
+.white{
+     background: #fff;
+     padding: 20px;
+     border-radius: 10px;
+     box-shadow: 0 0 10px rgba(0,0,0,0.2);
+     width: 60%;
+     margin: 0; 
+     text-align: center;
+     align-items: center;
+     justify-content: center;  
+     border-right: 2px solid #e80c82;
+     border-left: 2px solid #e80c82;
+}
+h2{
+    font-size: 22px;
+    font-weight: 500;
+    color: #000;
+    margin: 10px 10px;
+    letter-spacing: 5px;
+}
+p{
+    font-size: 15px;
+    font-weight: 500;
+    color: #e80c82;
+    margin: 8px 10px;
+    letter-spacing: 2px;
+}
+h3{
+    font-size: 13px;
+    font-weight: 300;
+    color: #000;
+    margin: 0 35px; 
+    line-height: 22px;
+    letter-spacing: 1px;
+}
+#left{
+     background-color: transparent;
+     color: #e80c82;
+     font-size: 28px;
+     border: none;
+     outline: none;
+     margin: 10px;
+     font-weight: bold;
+     cursor: pointer;
+}
+#right{
+     background-color: transparent;
+     color: #e80c82;
+     font-size: 28px;
+     border: none;
+     outline: none;
+     margin: 10px;
+     font-weight: bold;
+     cursor: pointer;
+}
+#btn{
+    width: 150px;
+    height: 50px;
+    background: #fff;
+    border: 1px solid #000;
+    border-radius: 5px; 
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.5s;
+    margin: 10px;
+    font-size: 20px;
+    color: #e80c82;
+}
+#btn:hover{
+    background: #e80c82;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
